@@ -1,0 +1,2 @@
+pixeltable[serve]>=0.7.14
+pillow

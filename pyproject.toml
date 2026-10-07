@@ -1,0 +1,18 @@
+[project]
+name = "pixeltable-travel-scrapbook"
+version = "0.1.0"
+description = "Travel photo scrapbook API: image uploads, thumbnails and place tags as computed columns - built with Pixeltable"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Pierre Brunelle" }]
+keywords = ["pixeltable", "multimodal", "ai", "fastapi", "computed-columns", "data-infrastructure", "travel-scrapbook"]
+dependencies = [
+    "pixeltable[serve]>=0.7.14",
+    "pillow",
+]
+
+[project.urls]
+Homepage = "https://pixeltable.com"
+Documentation = "https://docs.pixeltable.com"
+Pixeltable = "https://github.com/pixeltable/pixeltable"
